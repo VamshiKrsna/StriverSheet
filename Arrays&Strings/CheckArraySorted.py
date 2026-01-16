@@ -8,7 +8,7 @@ temp1 = [34,54,12,1,0]
 def method1(arr):
     flag = True 
     for i in range(len(arr)-1):
-        if arr[i+1] < arr[i+1]:
+        if arr[i+1] < arr[i]:
             flag = False 
             print("Array is not sorted")
             return 
